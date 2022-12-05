@@ -10,7 +10,7 @@ const Footer = () => {
         <footer style={{background:Theme.backgroundNav, color:Theme.color}}>
             <div>
                 <p>Powered by</p>
-                <img src="/images/DH.png" alt='DH-logo' />
+                <img src="/images/DH.png" alt='DH-logo' style={{filter:Theme.inverted}}/>
             </div>
             <div>
                 <i className="fa-brands fa-facebook face"></i>

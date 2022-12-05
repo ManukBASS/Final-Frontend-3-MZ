@@ -6,13 +6,18 @@ export const initialState = {
     light: {
       backgroundHome: "white",
       backgroundNav: "rgb(204, 204, 204)",
+      backgroundCard: "transparent",
       color: "black",
+      inverted: "invert(0)"
     },
     dark: {
       backgroundNav: "rgba(19, 20, 19, 0.7)",
       backgroundHome: "rgba(18, 18, 18, 0.59)",
+      backgroundCard: "#222",
       color: "white",
+      inverted: "invert(1)"
     },
+
   },
 };
 
